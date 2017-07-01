@@ -1,0 +1,30 @@
+{
+  "name": "eat2go",
+  "version": "1.0.0",
+  "description": "3th Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --host 0.0.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "poly-decomp": "^0.2.1",
+    "requirejs": "^2.3.3",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "material-ui": "^0.18.1",
+    "matter-js": "^0.12.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
